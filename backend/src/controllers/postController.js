@@ -1,5 +1,5 @@
 const Post = require("../models/Post");
-const imagekit = require("../config/imageKit");
+const imagekit = require("../config/imagekit");
 
 const createPost = async (req, res) => {
   try {
